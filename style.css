@@ -1,0 +1,172 @@
+.header-nav {
+  height: 60px;
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav {
+  margin-right: 5%;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  color: #ff00ff;
+}
+
+#first-block {
+  background-image: url("images/まめっこ農場.jpg");
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#first-block h1 {
+  font-size: 80px;
+  font-family: serif;
+  color: #444;
+}
+
+#first-block h3 {
+  font-size: 50px;
+  font-family: serif;
+  color: #444;
+}
+
+#second-block {
+  height: 700px;
+  width: 100vw;
+  background-color: #f0f0f0;
+}
+
+.second-title {
+  height: 15%;
+  font-size: 60px;
+  font-family: serif;
+  margin-bottom: 20px;
+  color: #000;
+  text-align: center;
+}
+
+.second-content-box {
+  display: flex;
+  height: 70%;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2%;
+}
+
+.second-content {
+  margin: 2% 3%;
+  width: 35%;
+}
+
+.second-content-title {
+  border-bottom: solid;
+  border-color: #444;
+  border-width: 5px;
+  font-size: 30px;
+  font-family: serif;
+}
+
+.second-content-answer {
+  border-width: 5px;
+  font-size: 25px;
+  font-family: serif;
+  transition: all 10s;
+}
+
+#third-block {
+  height: 2000px;
+  width: 100vw;
+  background-color: #b3e2f5;
+}
+
+.third-title {
+  height: 150px;
+  font-size: 60px;
+  font-family: serif;
+  color: #000;
+  text-align: center;
+}
+
+.button-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button-box button {
+  padding: 3%;
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+.button-box button:hover {
+  padding: 3%;
+  font-size: 30px;
+  font-family: fantasy;
+  color: #ff00ff;
+}
+
+.third-content-box {
+  height: 80%;
+  padding: 1%;
+}
+
+.third-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.third-content-title {
+  border-bottom: solid;
+  border-color: #444;
+  border-width: 3px;
+  font-size: 30px;
+  font-family: serif;
+  padding: 0.5%;
+}
+
+.third-content-text {
+  font-size: 18px;
+  font-family: serif;
+}
+
+.image {
+  height: 30%;
+  width: 43%;
+  padding: 2%;
+}
+
+.text {
+  height: 30%;
+  width: 43%;
+  padding: 2%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100vw;
+  font-size: 15px;
+  color: #fff;
+  background-color: #000;
+}
